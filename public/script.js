@@ -1,4 +1,4 @@
-let socket = io('http://localhost:3333')
+var socket = io('http://localhost:3333')
 const inputArea = document.querySelector(".input-area");
 const submitButton = document.querySelector(".submit-btn");
 const commentSection = document.querySelector(".comment-section")
