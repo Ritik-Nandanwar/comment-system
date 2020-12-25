@@ -13,4 +13,7 @@ io.on('connection',socket => {
     //RESONSE TO RECEIVED REQUEST
     socket.broadcast.emit('comment' ,data)
   })
+  socket.on('typing' ,(data) => {
+    socket.broadcast.emit('typing' ,data)
+  })
 })
