@@ -10,5 +10,5 @@ Run the following cli command in console after cloning this repo.
 ```javascript
 npm i
 ```
-###Sample of the application
+### Sample of the application
 ![](images/sample.PNG)
